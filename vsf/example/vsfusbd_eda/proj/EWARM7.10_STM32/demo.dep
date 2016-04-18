@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2921397749</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\component\file\vsfile.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\mal\vsfmal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\list\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\buffer\buffer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\mal\vsfscsi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\stream\stream.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\framework\vsfshell\vsfshell.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\framework\vsfsm\vsfsm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\framework\vsftimer\vsftimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\adc\STM32_ADC.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\ebi\STM32_EBI.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\eint\STM32_EINT.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\flash\STM32_FLASH.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\gpio\STM32_GPIO.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\sdio\STM32_SDIO.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\spi\STM32_SPI.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_cl.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_ld_vl.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_hd.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_ld.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_md.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_xl.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\timer\STM32_TIM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\usart\STM32_USART.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\usbd\STM32_USBD.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\core.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\interfaces.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\eth\vsfip_eth.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\vsfip_netif.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcp_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dns\vsfip_dnsc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\http\vsfip_httpc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\telnet\vsfip_telnetd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\vsfip.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDC.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dhcpd.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDCACM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_RNDIS.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\core\vsfusbd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\MSC\vsfusbd_MSC_BOT.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\tool\bittool\bittool.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\tool\fakefat32\fakefat32.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\tool\mal_embflash\mal_embflash.c</file>
+      <file>$PROJ_DIR$\..\..\vsf_cfg\vsfsm_cfg.h</file>
+      <file>$PROJ_DIR$\vsf_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\vsf_cfg\vsfip_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\vsf_cfg\vsfusbd_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\fakefat32_fs.h</file>
+      <file>$PROJ_DIR$\app_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\httpd_fs.h</file>
+      <file>$PROJ_DIR$\hw_cfg_STM32.h</file>
+      <file>$PROJ_DIR$\interfaces_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\usbd_desc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_httpc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfshell.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stream.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfscsi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfsm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfmal.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfile.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\buffer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dnsc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfile.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsftimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_ADC.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_EBI.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_SPI.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_EINT.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_TIM.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_FLASH.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_GPIO.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_SDIO.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\core.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\interfaces.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_USART.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_USBD.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_eth.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_netif.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dhcpc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dhcp_common.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dnsc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dhcpd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_httpc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_telnetd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_CDC.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fakefat32.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_CDCACM.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_RNDIS.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_MSC_BOT.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bittool.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_xl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\buffer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dhcpc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfmal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfscsi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stream.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfshell.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfsm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsftimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_ADC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_EBI.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_EINT.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_FLASH.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_GPIO.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_SDIO.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_SPI.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_TIM.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_USART.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32_USBD.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\core.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\interfaces.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_eth.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_netif.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_dhcp_common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip_telnetd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfip.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_CDC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_CDCACM.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_RNDIS.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd_MSC_BOT.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\vsfusbd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bittool.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fakefat32.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\demo.out</file>
+      <file>$PROJ_DIR$\Debug\Exe\demo.hex</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\app_type.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\buffer\buffer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\debug\debug.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\compiler\IAR\compiler.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\stream\stream.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\vsf_err.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\tool\bittool\bittool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\vsf_basetype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\list\list.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\framework\vsftimer\vsftimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\vsf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_RNDIS.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\eth\vsfip_eth.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\mal\vsfscsi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\interfaces.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\core\vsfusbd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\file\vsfile.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\component\mal\vsfmal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\MSC\vsfusbd_MSC_BOT.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\framework\vsfshell\vsfshell.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\vsfip.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\telnet\vsfip_telnetd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDCACM.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\interfaces_const.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\framework\vsfsm\vsfsm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\common\CDC\vsfusb_CDC.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dns\vsfip_dnsc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\http\vsfip_httpc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\common\usb_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\common\usb_ch9.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\core.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDC.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\HID\vsfusbd_HID.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\common\usb_type.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\stm32f10x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\common\CDC\vsfusb_RNDIS.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\vsfip_netif.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcp_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\usb\class\common\CDC\vsfusb_CDCACM.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\tool\fakefat32\fakefat32.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocalelist.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\ebi\STM32_EBI.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\flash\STM32_FLASH.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\gpio\STM32_GPIO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\usbd\STM32_USBD.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\stack\tcpip\vsfip_priv.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\component\file\vsfile.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 142 160 159 145 161 141 158 162 164 167 53 156 138 51 163 166 165 168 169 173 174 152 151 153 143 139 175 170 146 137 177 47 176 172 171 178 179 183 184 144 136 150 149 155 182 157 49 181 185 187 147 148 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\component\mal\vsfmal.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 172 141 151 187 143 145 179 47 158 168 169 160 152 155 49 162 171 178 173 174 153 182 157 138 181 185 159 163 166 165 161 53 156 154 139 175 170 146 142 177 51 176 164 183 184 167 144 136 150 149 147 148 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\component\list\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 147 149 146 148 157 139 141 137 152 151 153 154 155</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\component\buffer\buffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 137 139 138 140 141 144 143 145 142 146 147 148 149 150 47 152 151 153 154 155 156 157</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\component\mal\vsfscsi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 142 183 143 47 171 184 150 138 137 176 172 178 144 136 149 139 175 170 146 177 159 51 163 158 145 166 162 165 168 161 169 173 164 174 160 167 53 156 141 152 151 153 154 155 182 157 49 181 185 187 147 148 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\component\stream\stream.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153 141 143 152 151 145 53 156 154 139 137 142 144 136 150 149 146 147 148 138 47 51 155 157</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\framework\vsfshell\vsfshell.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 156 195 141 46 192 136 143 176 144 146 189 180 193 196 194 137 172 148 177 159 152 149 47 171 179 183 184 142 150 147 54 186 48 188 185 197 198 151 153 154 199 200 201 202 203 51 163 158 138 145 166 162 165 168 161 169 173 164 174 160 167 53 139 155 175 182 170 157 49 181 187 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\framework\vsfsm\vsfsm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 154 156 141 46 155 142 147 176 144 136 150 152 151 153 146 148 149 137 139</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\framework\vsftimer\vsftimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 137 143 157 139 54 186 163 144 136 149 138 155 146 158 176 156 141 152 151 153 154 47 147 148 46 175 182 142 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\adc\STM32_ADC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 149 150 163 139 144 136 141 175 186 142 146 147 148 152 151 153 154 155 156 137 54 182 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\ebi\STM32_EBI.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147 153 152 151 155 175 146 148 141 154 182 163 204 139 143 149 137 54 186 170 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\eint\STM32_EINT.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149 143 150 163 139 144 136 141 175 186 142 146 147 148 152 151 153 154 155 156 137 54 182 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\flash\STM32_FLASH.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 150 149 175 163 139 144 136 141 182 170 146 142 205 147 148 152 151 153 154 155 156 137 54 186</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\gpio\STM32_GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 146 143 206 141 154 182 170 163 147 152 151 153 155 175 137 139 149 54 186 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\sdio\STM32_SDIO.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 186 156 146 141 154 175 147 152 151 153 155 163 139 143 149 137 54 182 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\spi\STM32_SPI.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 148 141 146 154 143 163 147 152 151 153 155 156 137 182 142 139 149 144 136 150 175 186 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\startup\iar\startup_stm32f10x_xl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\timer\STM32_TIM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 186 156 146 141 154 175 147 152 151 153 155 163 139 143 149 137 54 182 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\usart\STM32_USART.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 175 139 144 141 143 186 163 149 150 142 146 147 148 152 151 153 154 155 156 137 54 182 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\usbd\STM32_USBD.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 141 139 144 142 136 182 146 163 149 150 175 137 207 147 148 152 151 153 154 155 156 54 186 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\core.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 163 141 151 143 155 153 54 182 53 156 154 139 137 51 175 142 144 136 150 149 146 147 148 186 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\interfaces.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 139 143 142 54 182 51 144 136 149 137 155 163 53 156 141 152 151 153 154 175 146 147 148 186 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\eth\vsfip_eth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 176 144 143 149 148 137 172 136 146 141 138 47 171 179 183 184 142 150 147 175 170 177 51 163 158 145 166 162 165 168 161 169 173 164 174 160 167 53 156 152 151 153 154 139 155 182 157 49 181 185 187 159 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 172 141 151 187 143 145 179 47 158 168 169 160 152 155 49 159 162 171 178 173 174 153 182 157 138 181 185 189 163 166 165 161 53 156 154 139 175 170 146 142 177 51 176 164 183 184 167 144 136 150 149 147 148 54 186 46 48 188 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\vsfip_netif.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 156 166 53 163 165 161 154 141 139 175 170 146 137 142 177 208 47 158 145 162 168 172 171 169 178 179 173 174 160 152 151 153 143 155 182 157 49 181 185 187 159 51 176 164 183 184 167 144 136 150 149 147 148 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcp_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 161 145 141 142 160 154 158 162 164 167 53 156 138 51 163 166 165 168 169 173 174 152 151 153 143 175 170 146 137 177 189 47 176 172 171 178 179 183 184 144 136 150 149 147 148 155 182 157 49 181 185 187 159 54 186 46 48 188 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 139 145 141 142 160 154 158 162 164 167 53 156 138 51 163 166 165 168 169 173 174 152 151 153 143 175 170 146 137 177 189 47 176 172 171 178 179 183 184 144 136 150 149 147 148 155 182 157 49 181 185 187 159 54 186 46 48 188 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dns\vsfip_dnsc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171 143 47 184 150 179 183 142 138 137 176 172 178 144 136 149 139 175 170 146 177 159 51 163 158 145 166 162 165 168 161 169 173 164 174 160 167 53 156 141 152 151 153 154 155 182 157 49 181 185 187 147 148 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\http\vsfip_httpc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167 146 158 156 142 162 164 53 189 180 194 145 161 160 154 141 46 168 51 163 138 166 165 169 173 174 152 151 153 143 148 190 159 137 47 176 172 171 178 179 183 184 144 136 150 149 147 54 186 48 188 185 139 155 175 182 170 157 49 181 177 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\telnet\vsfip_telnetd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 184 47 171 143 147 179 183 142 138 137 176 172 178 144 136 149 146 148 175 170 177 51 163 158 145 166 162 165 168 161 169 173 164 174 160 167 53 156 141 152 151 153 154 139 155 182 157 49 181 185 187 159 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\vsfip.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167 146 158 156 142 162 164 53 141 189 180 194 145 161 160 154 46 51 163 138 166 165 168 169 173 174 152 148 190 159 137 47 176 172 171 178 179 183 184 144 143 136 150 149 151 153 147 54 186 48 188 185 139 155 175 182 170 157 49 181 177 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 173 165 174 141 151 143 138 168 152 159 163 166 169 153 142 158 145 162 161 164 160 167 53 156 154 139 175 170 146 137 177 47 176 172 171 178 179 183 184 144 136 150 149 147 148 155 182 157 49 181 185 187 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDCACM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158 156 167 162 164 53 142 145 161 160 154 141 139 138 51 163 166 165 168 169 173 174 152 151 153 143 175 170 146 137 177 47 176 172 171 178 179 183 184 144 136 150 149 147 148 155 182 157 49 181 185 187 159 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_RNDIS.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 184 47 171 143 147 179 183 142 138 137 176 172 178 144 136 149 146 148 175 170 177 159 51 163 158 145 166 162 165 168 161 169 173 164 174 160 167 53 156 141 152 151 153 154 139 155 182 157 49 181 185 187 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\core\vsfusbd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143 171 47 184 150 179 183 142 138 137 176 172 178 144 136 149 139 175 170 146 177 159 51 163 158 145 166 162 165 168 161 169 173 164 174 160 167 53 156 141 152 151 153 154 155 182 157 49 181 185 187 147 148 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\MSC\vsfusbd_MSC_BOT.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 136 141 172 143 146 176 178 144 149 148 138 47 171 179 183 184 142 150 147 175 170 177 51 163 158 145 166 162 165 168 161 169 173 164 174 160 167 53 156 152 151 153 154 139 155 182 157 49 181 185 187 159 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\tool\bittool\bittool.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 143 146 144 149 148 137 150 147 155 142 156 141 152 151 153 154 139</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\tool\fakefat32\fakefat32.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 149 162 143 202 53 170 137 200 141 158 167 156 139 175 146 142 159 193 145 161 160 138 201 203 136 51 163 166 165 168 169 173 174 155 182 157 49 181 185 198 191 152 151 153 154 196 194 195 47 176 172 171 178 179 183 184 144 150 147 148 54 186 46 48 188 189 180 190 177 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160 47 169 152 168 158 155 49 145 172 179 141 151 143 137 187 52 162 171 178 173 174 153 182 157 138 181 185 159 50 163 166 165 161 53 156 154 139 175 170 146 142 177 191 56 51 176 164 183 184 167 144 136 150 149 147 148 54 186 46 48 188 189 180 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\demo.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\component\file\vsfile.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\component\mal\vsfmal.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\component\list\list.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\component\buffer\buffer.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\component\mal\vsfscsi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\component\stream\stream.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\framework\vsfshell\vsfshell.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\framework\vsfsm\vsfsm.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\framework\vsftimer\vsftimer.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\adc\STM32_ADC.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\ebi\STM32_EBI.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\eint\STM32_EINT.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\flash\STM32_FLASH.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\gpio\STM32_GPIO.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\sdio\STM32_SDIO.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\spi\STM32_SPI.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\timer\STM32_TIM.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\usart\STM32_USART.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\usbd\STM32_USBD.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\cpu\stm32\core.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\interfaces\interfaces.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\eth\vsfip_eth.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\netif\vsfip_netif.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcp_common.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dhcp\vsfip_dhcpd.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\dns\vsfip_dnsc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\http\vsfip_httpc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\proto\telnet\vsfip_telnetd.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\tcpip\vsfip.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDC.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_CDCACM.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\CDC\vsfusbd_RNDIS.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\core\vsfusbd.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\stack\usb\class\device\MSC\vsfusbd_MSC_BOT.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\tool\bittool\bittool.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\tool\fakefat32\fakefat32.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\tool\mal_embflash\mal_embflash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
